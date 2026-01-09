@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list Pro</title>
+       <link rel="stylesheet" href="projet1.css">
+</head>
+<body>
+   
+   <div class="container">
+        <h1>📝 To-Do List Pro</h1>
+
+        <div class="input-zone">
+            <input type="text" id="taskInput" placeholder="Ajouter une tâche…">
+            <button id="addBtn">Ajouter</button>
+        </div>
+
+        <div class="filters">
+            <button data-filter="all" class="active">Toutes</button>
+            <button data-filter="done">Terminées</button>
+            <button data-filter="todo">En attente</button>
+        </div>
+
+        <ul id="taskList"></ul>
+    
+    </div>
+<script src="projet1.js"></script>
+</body>
+</html>
